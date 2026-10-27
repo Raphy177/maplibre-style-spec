@@ -2,6 +2,7 @@
 ### ✨ Features and improvements
 - Add `light.ambient-color` and `light.ambient-intensity`, so that a style can darken and tint the whole scene for dusk and night
 - Add `light.shadow-intensity`, letting extrusions cast shadows onto each other and onto the ground, following `light`
+- Add experimental `fill-extrusion-ambient-occlusion-wall-intensity`, `fill-extrusion-ambient-occlusion-wall-radius`, `fill-extrusion-ambient-occlusion-ground-intensity` and `fill-extrusion-ambient-occlusion-ground-radius` paint properties to support ambient occlusion on extruded geometries ([#1796](https://github.com/maplibre/maplibre-style-spec/issues/1796))
 - _...Add new stuff here..._
 
 ### 🐞 Bug fixes
