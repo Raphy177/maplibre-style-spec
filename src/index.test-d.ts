@@ -27,6 +27,9 @@ describe('style-spec', () => {
         expectTypeOf<{
             'ambient-intensity-transition': {duration: 100};
         }>().toExtend<LightSpecification>();
+        expectTypeOf<{
+            'shadow-intensity-transition': {duration: 100};
+        }>().toExtend<LightSpecification>();
     });
     test('LightSpecification does not contain *-transition keys for untransitionable properties', () => {
         expectTypeOf<{
