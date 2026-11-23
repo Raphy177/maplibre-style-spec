@@ -1,5 +1,6 @@
 ## main
 ### ✨ Features and improvements
+- Add `light.shadow-intensity`, letting extrusions cast shadows onto each other and onto the ground, following `light`
 - _...Add new stuff here..._
 
 ### 🐞 Bug fixes
