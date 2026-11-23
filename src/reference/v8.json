@@ -6357,7 +6357,7 @@
         ]
       },
       "transition": true,
-      "doc": "Intensity of lighting (on a scale from 0 to 1). Higher numbers will present as more extreme contrast.",
+      "doc": "Intensity of lighting (on a scale from 0 to 1). Higher numbers will present as more extreme contrast. This is the strength of the directional light alone, the ambient light being set by `ambient-intensity`.",
       "sdk-support": {
         "basic functionality": {
           "js": "0.27.0",
@@ -6368,6 +6368,49 @@
           "js": "6.1.0",
           "android": "13.7.1",
           "ios": "7.0.0"
+        }
+      }
+    },
+    "ambient-color": {
+      "type": "color",
+      "property-type": "data-constant",
+      "default": "#ffffff",
+      "expression": {
+        "interpolated": true,
+        "parameters": [
+          "zoom"
+        ]
+      },
+      "transition": true,
+      "doc": "Color tint for ambient lighting. Combines with `color`.",
+      "example": "#3a4a7a",
+      "sdk-support": {
+        "basic functionality": {
+          "js": "https://github.com/maplibre/maplibre-style-spec/issues/163",
+          "android": "https://github.com/maplibre/maplibre-style-spec/issues/163",
+          "ios": "https://github.com/maplibre/maplibre-style-spec/issues/163"
+        }
+      }
+    },
+    "ambient-intensity": {
+      "type": "number",
+      "property-type": "data-constant",
+      "minimum": 0,
+      "maximum": 1,
+      "expression": {
+        "interpolated": true,
+        "parameters": [
+          "zoom"
+        ]
+      },
+      "transition": true,
+      "doc": "Intensity of ambient lighting (on a scale from 0 to 1). Defaults to `1 - intensity` if unspecified.",
+      "example": 0.3,
+      "sdk-support": {
+        "basic functionality": {
+          "js": "https://github.com/maplibre/maplibre-style-spec/issues/163",
+          "android": "https://github.com/maplibre/maplibre-style-spec/issues/163",
+          "ios": "https://github.com/maplibre/maplibre-style-spec/issues/163"
         }
       }
     }

@@ -1,5 +1,6 @@
 ## main
 ### ✨ Features and improvements
+- Add `light.ambient-color` and `light.ambient-intensity`, so that a style can darken and tint the whole scene for dusk and night
 - _...Add new stuff here..._
 
 ### 🐞 Bug fixes

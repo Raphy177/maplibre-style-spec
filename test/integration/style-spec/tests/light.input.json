@@ -10,7 +10,9 @@
     "anchor": true,
     "position": [1, 2],
     "color": [255, 255, 255, 1],
-    "intensity": 1.5
+    "intensity": 1.5,
+    "ambient-color": [255, 255, 255, 1],
+    "ambient-intensity": -0.5
   },
   "layers": []
 }

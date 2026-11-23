@@ -18,5 +18,15 @@
     "message": "intensity: 1.5 is greater than the maximum value 1",
     "severity": "error",
     "line": 13
+  },
+  {
+    "message": "ambient-color: color expected, array found",
+    "severity": "error",
+    "line": 14
+  },
+  {
+    "message": "ambient-intensity: -0.5 is less than the minimum value 0",
+    "severity": "error",
+    "line": 15
   }
 ]
