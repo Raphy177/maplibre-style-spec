@@ -1,0 +1,7 @@
+[
+  {
+    "message": "fog-falloff: 0.05 is less than the minimum value 0.1",
+    "severity": "error",
+    "line": 5
+  }
+]

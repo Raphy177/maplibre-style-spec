@@ -38,6 +38,9 @@ describe('style-spec', () => {
             'fog-ground-blend-transition': {duration: 100};
         }>().toExtend<SkySpecification>();
         expectTypeOf<{
+            'fog-falloff-transition': {duration: 100};
+        }>().toExtend<SkySpecification>();
+        expectTypeOf<{
             'horizon-fog-blend-transition': {duration: 100};
         }>().toExtend<SkySpecification>();
         expectTypeOf<{
