@@ -1,5 +1,6 @@
 ## main
 ### ✨ Features and improvements
+- Add `sky.fog-falloff` to control the exponent of the fog blend curve
 - _...Add new stuff here..._
 
 ### 🐞 Bug fixes

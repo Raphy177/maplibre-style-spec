@@ -6532,6 +6532,24 @@
         }
       }
     },
+    "fog-falloff": {
+      "type": "number",
+      "property-type": "data-constant",
+      "default": 2,
+      "minimum": 0.1,
+      "maximum": 10,
+      "expression": {
+        "interpolated": true,
+        "parameters": [
+          "zoom"
+        ]
+      },
+      "transition": true,
+      "doc": "The exponent applied to the fog blend curve. Lower values ramp fog more aggressively from `fog-ground-blend` toward the horizon.",
+      "sdk-support": {
+        "basic functionality": {}
+      }
+    },
     "horizon-fog-blend": {
       "type": "number",
       "property-type": "data-constant",
